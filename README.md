@@ -18,13 +18,7 @@
       print(add(a, b));
   }
   ```
-
-- Variables
-  ```dart
-  var name = 'Nuclei';
-  const name = 'Nuclei';
-  String name = 'Nuclei'
-  ```
+  
 - Built-In Types
 
   - `int`
@@ -68,6 +62,35 @@
     print('Spelling for 1 is ${numSpellings[1]}');
     ```
 
+- Ways of Declaring Variables
+  - explicit
+  ```dart
+  int a = 10  ; 
+  double b = 20.32 ; 
+  String s = "Friendly Developer" ;
+  ```
+  - var
+  ```dart
+  var a = 'String'  ;
+  a = 'Hello' ; // VALID
+  a = 20 ; // INVALID
+  ```
+  - const
+  
+  ```dart
+  const a = 10  ;
+  const mylist = [1,2,3] ;
+  
+  mylist.add(10) ; // INVALID at RUNTIME
+  mylist = [1,2] ; // INVALID at COMPILE TIME
+  ```
+  - final 
+  ```dart
+  final mylist = [1,2,3] ;
+  mylist = [1,2] ; //INVALID
+  mylist.add(10) ; //VALID 
+  ```
+
 - If-Else
   ```dart
   if (isValidUser) {
@@ -76,6 +99,7 @@
     print('Please find a door!');
   }
   ```
+  
 - Switch
   ```dart
   switch(colors) {
