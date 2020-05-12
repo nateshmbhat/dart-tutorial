@@ -60,6 +60,7 @@
     }
     
   - `Function`
+  ```dart
     Function myfun ; 
     myfun = main ;
 
