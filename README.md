@@ -58,8 +58,11 @@
         2: 'Two',
         3: 'Three'
     }
+    
+  - `Function`
+    Function myfun ; 
+    myfun = main ;
 
-    print('Spelling for 1 is ${numSpellings[1]}');
     ```
 
 - Ways of Declaring Variables
