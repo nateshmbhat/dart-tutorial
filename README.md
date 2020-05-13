@@ -65,6 +65,13 @@
     myfun = main ;
 
     ```
+  - `dynamic`
+  ```
+    dynamic myvar = 'hello' ; 
+    myvar = 10 ; 
+    myvar = 234.23432 ;
+    myvar = true ;
+  ```
 
 - Ways of Declaring Variables
   - explicit
