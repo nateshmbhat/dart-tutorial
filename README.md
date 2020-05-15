@@ -197,7 +197,7 @@
     - positional optional params
     ```dart
     int add(int a, [int b]) {
-        if (b != nil) {
+        if (b != null) {
             return a + b;
         } else {
             return a + 10;
@@ -207,9 +207,9 @@
     - named optional params
     ```dart
     int add({int a, int b}) {
-        if (a == nil && b == nil) {
+        if (a == null && b == null) {
             return 10;
-        } else if (b == nil) {
+        } else if (b == null) {
             return a + 10;
         } else {
             return 10 + b;
